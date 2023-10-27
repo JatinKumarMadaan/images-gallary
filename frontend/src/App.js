@@ -5,8 +5,8 @@ import Search from './components/Search';
 
 
 const UNSPLASH_KEY=process.env.REACT_APP_UNSPLASH_KEY;
-console.log(process.env)
-console.log(process.env.REACT_APP_UNSPLASH_KEY)
+//console.log(process.env)
+//console.log(process.env.REACT_APP_UNSPLASH_KEY)
 const App=()=>{
   const [word,setWord]=useState('');
 
