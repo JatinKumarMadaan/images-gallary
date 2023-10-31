@@ -1,5 +1,5 @@
-import React from 'react';
-import {Navbar,Container} from 'react-bootstrap';
+import React from "react";
+import { Navbar, Container } from "react-bootstrap";
 
 /*
 const Header=(props)=>{
@@ -12,20 +12,18 @@ const Header=(props)=>{
 }
 */
 
-const navbarStyle={
-  backgroundColor:'lightblue'
-}
+const navbarStyle = {
+  backgroundColor: "lightblue",
+};
 
-const Header=({title})=>{
-    return(
-        <Navbar style={navbarStyle}  data-bs-theme="light">
-          <Container>
-            <Navbar.Brand href="/">{title}</Navbar.Brand>
-         </Container>
-      </Navbar>
-    )
-}
-
+const Header = ({ title }) => {
+  return (
+    <Navbar style={navbarStyle} data-bs-theme="light">
+      <Container>
+        <Navbar.Brand href="/">{title}</Navbar.Brand>
+      </Container>
+    </Navbar>
+  );
+};
 
 export default Header;
-
