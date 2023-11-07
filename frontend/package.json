@@ -37,7 +37,7 @@
       "error",
       {
         "singleQuote": 1,
-        "parser": "flow",
+        "parser": 0,
         "endOfLine": 0
       }
     ]
