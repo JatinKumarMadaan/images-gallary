@@ -36,7 +36,7 @@
     "prettier/prettier": [
       "error",
       {
-        "singleQuote": 1,
+        "singleQuote": true,
         "parser": 0,
         "endOfLine": 0
       }

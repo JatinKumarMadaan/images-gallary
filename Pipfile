@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 python-dotenv = "*"
+flask-cors = "==3.0.10"
 
 [dev-packages]
 
