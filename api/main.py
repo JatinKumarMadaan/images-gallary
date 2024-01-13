@@ -2,10 +2,9 @@
 import os
 import requests
 #from requests import get
-from flask import Flask,request,send_from_directory
+from flask import Flask,request
 from dotenv import load_dotenv
 from flask_cors import CORS
-
 
 load_dotenv(dotenv_path="./.env.local")
 
