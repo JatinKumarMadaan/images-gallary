@@ -2,7 +2,7 @@
 import os
 import requests
 #from requests import get
-from flask import Flask,request
+from flask import Flask, request
 from dotenv import load_dotenv
 from flask_cors import CORS
 
