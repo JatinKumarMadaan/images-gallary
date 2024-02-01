@@ -83,7 +83,7 @@ def image(image_id):
                return {"error": "Image wasn't deleted. Please try again"}, 500
           if result and not result.deleted_count:
                return {"error": "Image not found"}, 404
-          return {"delete_id":image_id}
+          return {"deleted_id":image_id}
           # image=request.get_json()
           # if image["_id"]==image.get("id"): 
           #      del_id=images_collection.delete_one(image_id)
