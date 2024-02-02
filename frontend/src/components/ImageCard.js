@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card, Button, Nav } from "react-bootstrap";
 
 const ImageCard = ({ image, deleteImage, saveImage }) => {
   const authorName=image.user?.name || 'No author name';
@@ -13,8 +13,8 @@ const ImageCard = ({ image, deleteImage, saveImage }) => {
         <Button variant="primary" onClick={() => deleteImage(image.id)}>
           Delete
         </Button>{' '}
-        {!image.saved &&(
-        <Button variant="secondary" onClick={()=> saveImage(image.id)}>
+        {!image.saved && (
+        <Button variant="secondary" onClick={() => saveImage(image.id)}>
           Save
         </Button>
         )}
